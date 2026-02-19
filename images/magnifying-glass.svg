@@ -1,0 +1,5 @@
+<!-- Magnifying glass SVG image -->
+<svg viewBox="0 0 250 250" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="110" cy="110" r="89" stroke="black" stroke-width="20" fill="none"/>
+    <line x1="234" y1="234" x2="174" y2="174" stroke="black" stroke-width="20" stroke-linecap="round"/>
+</svg>
