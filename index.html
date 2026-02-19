@@ -15,9 +15,12 @@
 	</head>
 	<body>
 		<main>
+			<!-- Collection section showcasing SVG images and animations -->
 			<section class="collection">
 				<h1 class="collection__title">SVG and Animations</h1>
+				<!-- Cards container -->
 				<div class="collection__cards">
+					<!-- Card 1: Magnifying glass SVG image -->
 					<div class="card">
 						<h2 class="card__title">SVG image</h2>
 						<div class="card__visual">
@@ -29,6 +32,7 @@
 							</svg>
 						</div>
 					</div>
+					<!-- Card 2: Royal crown SVG image -->
 					<div class="card">
 						<h2 class="card__title">SVG image</h2>
 						<div class="card__visual">
@@ -36,16 +40,46 @@
 							<img src="images/crown.svg" alt="Black outline depicting a royal crown">
 						</div>
 					</div>
+					<!-- Card 3: UFO SVG image with animation -->
 					<div class="card">
 						<h2 class="card__title">SVG image with animation</h2>
 						<div class="card__visual">
-							<img src="images/ufo.svg" alt="Black outline depicting a UFO">
+							<!-- UFO SVG image -->
+							<svg viewBox="0 0 512 512" width="150" height="150" stroke="black" stroke-width="15px" stroke-linecap="round" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<!-- Top dome -->
+								<path class="ufo__dome ufo__dome--top" d="M 365, 140 C 328, 20 181, 20 152, 143"/>
+								<path class="ufo__dome ufo__dome--base" d="M 153, 144 C 186, 174 332, 174 365, 140"/>
+
+								<!-- Disc -->
+								<path class="ufo__disc ufo__disc--start" d="M 156, 126 C 41, 130 -3, 197 155, 236"/>
+								<path class="ufo__disc ufo__disc--center" d="M 155, 236 C 189, 245 290, 257 359, 238"/>
+								<path class="ufo__disc ufo__disc--end" d="M 358, 119 C 503, 143 484, 199 359, 238"/>
+
+								<!-- Headlights -->
+								<line class="ufo__headlight ufo__headlight--left" x1="99" y1="158" x2="125" y2="186"/>
+								<line class="ufo__headlight ufo__headlight--center-left" x1="149" y1="191" x2="194" y2="205"/>
+								<line class="ufo__headlight ufo__headlight--center" x1="234" y1="209" x2="278" y2="209"/>
+								<line class="ufo__headlight ufo__headlight--center-right" x1="318" y1="204" x2="363" y2="192"/>
+								<line class="ufo__headlight ufo__headlight--right" x1="386" y1="186" x2="414" y2="159"/>
+
+								<!-- Bottom dome -->
+								<path class="ufo__dome ufo__dome--bottom" d="M 190, 244 C 213, 280 288, 284 320, 246"/>
+
+								<!-- Light beams -->
+								<line class="ufo__beam ufo__beam--left" x1="105" y1="395" x2="153" y2="272"/>
+								<line class="ufo__beam ufo__beam--center-left" x1="147" y1="446" x2="195" y2="303"/>
+								<line class="ufo__beam ufo__beam--center" x1="256" y1="468" x2="256" y2="324"/>
+								<line class="ufo__beam ufo__beam--center-right" x1="365" y1="446" x2="316" y2="303"/>
+								<line class="ufo__beam ufo__beam--right" x1="407" y1="395" x2="359" y2="272"/>
+								<title>Black outline depicting a UFO with animated glowing light beams</title>
+							</svg>
 						</div>
 					</div>
+					<!-- Card 4: Galaxy SVG image with animation -->
 					<div class="card">
 						<h2 class="card__title">SVG image with animation</h2>
 						<div class="card__visual">
-							<img src="images/galaxy.svg" alt="Black outline depicting a galaxy">
+							<img class="galaxy" src="images/galaxy.svg" alt="Black outline depicting a spinning galaxy with glowing effect">
 						</div>
 					</div>
 				</div>	

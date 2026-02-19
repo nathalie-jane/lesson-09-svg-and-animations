@@ -72,3 +72,49 @@ main {
   font-size: 20px;
   letter-spacing: 0.05em;
 }
+
+/* =======================
+    ANIMATIONS
+   ======================= */
+@keyframes blink-shadow{
+  0% {
+    filter: drop-shadow(5px 10px 5px rgba(142, 255, 223, 0.5));
+  }
+  50% {
+    filter: drop-shadow(15px 45px 15px rgb(0, 186, 87));
+  }
+  100% {
+    filter: drop-shadow(5px 10px 5px rgba(142, 255, 223, 0.5));
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    filter: drop-shadow(2px 2px 10px rgba(255, 42, 248, 0.8));
+  }
+  50% {
+    filter: drop-shadow(2px 2px 10px rgba(114, 48, 255, 1));
+  }
+  100% {
+    filter: drop-shadow(2px 2px 10px rgba(255, 42, 248, 0.8));
+  }
+}
+
+.ufo__beam {
+  animation-name: blink-shadow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.galaxy {
+  animation: spin 20s linear infinite, gradient 5s ease-in-out infinite;
+}
