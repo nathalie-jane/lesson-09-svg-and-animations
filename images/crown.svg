@@ -1,0 +1,6 @@
+<!-- Crown SVG image -->
+<svg viewBox="0 0 550 550" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="124,420 31,181 178,300 274,80 371,296 519,181 425,421" fill="none" stroke="black" stroke-width="25px" 
+        stroke-linejoin="round"/>
+    <line x1="125" y1="470" x2="426" y2="470" stroke="black" stroke-width="25px" stroke-linecap="round"/>
+</svg>

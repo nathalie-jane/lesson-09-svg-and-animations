@@ -1,0 +1,32 @@
+<!-- Galaxy SVG image -->
+<svg viewBox="0 0 512 512" width="150" height="150" stroke="black" stroke-width="10px" stroke-linecap="round" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Outer and inner curves -->
+    <path class="galaxy__curve--outer" d="M 60,80 C 181, -36 408, 7 428, 199"/>
+    <path class="galaxy__curve--inner" d="M 133, 165 C 64, 254 86, 391 202, 451"/>
+
+    <!-- Inner top spiral -->
+    <path class="galaxy__spiral-inner galaxy__spiral-inner--start" d="M 316, 85 C 179, 6 42, 115 11, 234"/>
+    <path class="galaxy__spiral-inner galaxy__spiral-inner--center" d="M 315, 333 C 401, 289 422, 154 315, 85"/>
+    <path class="galaxy__spiral galaxy__spiral--end" d="M 204, 250 C 172, 298 230, 378 315, 333"/>
+
+    <!-- Outer bottom spiral -->
+    <path class="galaxy__spiral-outer galaxy__spiral-outer--start" d="M 306, 236 C 340, 133 180, 112 141, 237"/>
+    <path class="galaxy__spiral-outer galaxy__spiral-outer--center" d="M 141, 236 C 109, 326 189, 446 320, 426"/>
+    <path class="galaxy__spiral-outer galaxy__spiral-outer--center-bottom" d="M 320, 426 C 405, 415 497,328 499, 205"/>
+
+    <!-- Stars -->
+    <line class="galaxy__star galaxy__star--left-horizontal" x1="48" y1="214" x2="79" y2="214"/>
+    <line class="galaxy__star galaxy__star--left-vertical" x1="63" y1="198" x2="63" y2="229"/>
+    <line class="galaxy__star galaxy__star--bottom-horizontal" x1="284" y1="485" x2="315" y2="485"/>
+    <line class="galaxy__star galaxy__star--bottom-vertical" x1="300" y1="470" x2="300" y2="501"/>
+    <line class="galaxy__star galaxy__star--right-horizontal" x1="453" y1="115" x2="484" y2="115"/>
+    <line class="galaxy__star galaxy__star--right-vertical" x1="469" y1="100" x2="469" y2="131"/>
+
+    <!-- Planets -->
+    <circle class="galaxy__planet galaxy__planet--left" cx="37" cy="336" r="18"/>
+    <circle class="galaxy__planet galaxy__planet--center" cx="165" cy="123" r="18"/>
+    <circle class="galaxy__planet galaxy__planet--right" cx="434" cy="274" r="18"/>
+
+    <!-- Black hole -->
+    <circle class="galaxy__black-hole" cx="256" cy="247" r="34"/>
+</svg>
