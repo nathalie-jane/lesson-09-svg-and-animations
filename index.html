@@ -20,12 +20,15 @@
 			<!-- Collection section showcasing SVG images and animations -->
 			<section class="collection">
 				<h1 class="collection__title">SVG and Animations</h1>
-				<!-- Cards container -->
+				<!-- Card containera -->
 				<div class="collection__cards">
 					<!-- Card 1: Magnifying glass SVG image -->
 					<div class="card">
 						<div class="card__visual">
-							<img class="animate__animated animate__zoomIn" src="images/magnifying-glass.svg" alt="Black outline depicting a magnifying glass with animation effect">
+							<svg class="animate__animated animate__zoomIn" width="150" height="150">
+								<use href="images/magnifying-glass.svg#magnifying-glass-img"></use>
+								<title>Black outline depicting a magnifying glass with animation effect</title>
+							</svg>
 						</div>
 					</div>
 					<!-- Card 2: Royal crown SVG image -->
@@ -70,6 +73,7 @@
 								<line class="ufo__beam ufo__beam--center" x1="256" y1="468" x2="256" y2="324"/>
 								<line class="ufo__beam ufo__beam--center-right" x1="365" y1="446" x2="316" y2="303"/>
 								<line class="ufo__beam ufo__beam--right" x1="407" y1="395" x2="359" y2="272"/>
+
 								<title>Black outline depicting a UFO with animated glowing light beams</title>
 							</svg>
 						</div>
@@ -77,7 +81,10 @@
 					<!-- Card 4: Galaxy SVG image with animation -->
 					<div class="card">
 						<div class="card__visual">
-							<img class="galaxy" src="images/galaxy.svg" alt="Black outline depicting a spinning galaxy with glowing effect">
+							<svg class="galaxy" width="150" height="150">
+								<use href="images/galaxy.svg#galaxy-img"></use>
+								<title>Black outline depicting a spinning galaxy with gradient effect</title>
+							</svg>
 						</div>
 					</div>
 				</div>	

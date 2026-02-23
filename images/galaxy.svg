@@ -1,5 +1,5 @@
 <!-- Galaxy SVG image -->
-<svg viewBox="0 0 512 512" width="150" height="150" stroke="black" stroke-width="10px" stroke-linecap="round" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 512 512" id="galaxy-img" stroke="black" stroke-width="10px" stroke-linecap="round" fill="none" xmlns="http://www.w3.org/2000/svg">
     <!-- Outer and inner curves -->
     <path class="galaxy__curve--outer" d="M 60,80 C 181, -36 408, 7 428, 199"/>
     <path class="galaxy__curve--inner" d="M 133, 165 C 64, 254 86, 391 202, 451"/>
